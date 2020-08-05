@@ -18,10 +18,10 @@ function main(currentTime) {
     const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000;
     if (secondsSinceLastRender < 1 / SNAKE_SPEED) return;
 
-    lastRenderTime = currentTime
+    lastRenderTime = currentTime;
 
-    update();
     draw();
+    update();
 }
 
 window.requestAnimationFrame(main);
