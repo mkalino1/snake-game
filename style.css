@@ -5,11 +5,11 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-color: rgb(99, 76, 76);
+    background-color: rgb(92, 76, 76);
 }
 
 #game-board {
-    background-color: rgb(240, 204, 163);
+    background-color: rgb(210, 204, 163);
     width: 100vmin;
     height: 100vmin;
     display: grid;
